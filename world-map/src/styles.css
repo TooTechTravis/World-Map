@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #C4EAF2;
+}
+
+.worldmap-container svg {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .worldmap-container svg path {
+    fill: #05080D;
+    stroke: #248EA6;
+    stroke-width: 0.5;
+  }
+  
+  .worldmap-container svg path:hover {
+    fill: #144659;
+    cursor: pointer;
+  }
+  
+  
